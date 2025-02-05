@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["export function add(a: number, b: number): number {\n    return a + b;\n}\n\nexport function subtract(a: number, b: number): number {\n    return a - b;\n}\n\nexport function multiply(a: number, b: number): number {\n    return a * b;\n}\n\nexport function divide(a: number, b: number): number {\n    if (b === 0) throw new Error(\"Cannot divide by zero\");\n    return a / b;\n}\n"],
+  "mappings": "mBAAO,SAASA,EAAIC,EAAWC,EAAmB,CAC9C,OAAOD,EAAIC,CACf,CAEO,SAASC,EAASF,EAAWC,EAAmB,CACnD,OAAOD,EAAIC,CACf,CAEO,SAASE,EAASH,EAAWC,EAAmB,CACnD,OAAOD,EAAIC,CACf,CAEO,SAASG,EAAOJ,EAAWC,EAAmB,CACjD,GAAIA,IAAM,EAAG,MAAM,IAAI,MAAM,uBAAuB,EACpD,OAAOD,EAAIC,CACf",
+  "names": ["add", "a", "b", "subtract", "multiply", "divide"]
+}
