@@ -1,12 +1,13 @@
 {
     "name": "calc-sample-lib-ksdeve",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple calculation library",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "module": "dist/index.js",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "module": "./dist/index.js",
+    "type": "module",
     "scripts": {
-        "build": "tsc && node build.js"
+        "build": "tsc && node build.cjs"
     },
     "keywords": [
         "math",
@@ -14,7 +15,7 @@
         "typescript"
     ],
     "author": "ksdeveloper",
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
         "esbuild": "^0.24.2",
         "typescript": "^5.7.3"

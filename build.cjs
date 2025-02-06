@@ -4,9 +4,10 @@ esbuild
     .build({
         entryPoints: ["./src/index.ts"],
         bundle: true,
-        outfile: "./dist/index.js",
+        outdir: "dist",
         sourcemap: true,
-        minify: true,
         target: "esnext",
+        minify: true,
+        format: "esm",
     })
     .catch(() => process.exit(1));

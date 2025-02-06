@@ -3,7 +3,8 @@
         "declaration": true,
         "declarationMap": true,
         "emitDeclarationOnly": false,
-        "target": "ES6",
+        "esModuleInterop": true,
+        "target": "ESNext",
         "module": "ESNext",
         "outDir": "dist",
         "strict": true
